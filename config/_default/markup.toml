@@ -1,0 +1,15 @@
+# -- Markup --
+# These options configure how markdown is rendered.
+
+defaultMarkdownHandler = "goldmark"
+
+[goldmark]
+[goldmark.renderer]
+  unsafe = false
+
+[highlight]
+  noClasses = false
+
+[tableOfContents]
+  startLevel = 2
+  endLevel = 4
